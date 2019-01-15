@@ -1,6 +1,8 @@
 #include <iostream>
+#include "src/GameManager.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    GameManager gameManager;
+    gameManager.startGame();
     return 0;
 }

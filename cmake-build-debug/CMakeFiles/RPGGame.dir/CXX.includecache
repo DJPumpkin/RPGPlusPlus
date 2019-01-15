@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Dev/CPP/RPGGame/main.cpp
+iostream
+-
+src/GameManager.h
+C:/Dev/CPP/RPGGame/src/GameManager.h
+
+C:/Dev/CPP/RPGGame/src/GameManager.cpp
+iostream
+-
+GameManager.h
+C:/Dev/CPP/RPGGame/src/GameManager.h
+
+C:/Dev/CPP/RPGGame/src/GameManager.h
+Player.h
+C:/Dev/CPP/RPGGame/src/Player.h
+
+C:/Dev/CPP/RPGGame/src/Player.h
+string
+-
+
